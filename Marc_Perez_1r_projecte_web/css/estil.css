@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: #333;
+}
+
+/* Capçalera */
+.cap {
+  background-color: #4F5B93;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.cap h1 {
+  font-size: 50px;
+  margin: 0 0 10px 0;
+}
+
+/* Menú */
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #8892BF;
+  color: white;
+  display: block;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #4F5B93;
+}
+
+/* Cos principal */
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.main h3 {
+  color: #4F5B93;
+  margin-bottom: 0;
+}
+
+.data {
+  color: #777;
+  font-size: 14px;
+  margin: 3px 0;
+}
+
+/* Columna dreta */
+.right {
+  float: left;
+  width: 20%;
+  background-color: #eeeeee;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+a {
+  color: #4F5B93;
+}
+
+/* Peu de pàgina */
+.peu {
+  background-color: #4F5B93;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Mòbils: tot en una columna */
+@media only screen and (max-width: 620px) {
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+/* Codi (pàgina de descàrregues) */
+pre {
+  background-color: #2d2d2d;
+  color: #f1f1f1;
+  padding: 15px;
+  overflow: auto;
+}
